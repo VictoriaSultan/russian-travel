@@ -2,17 +2,16 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .footer__links {
         position: relative;
-        display: flex;
         flex-direction: column;
+        justify-content: space-between;
         align-items: flex-start;
-        align-content: flex-start;
-        margin: 0;
-        padding: 0;
     }
 }
